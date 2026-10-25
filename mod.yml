@@ -1,0 +1,75 @@
+---
+title: Julius - Darkside
+originalAuthor: Cagaroo
+description: >-
+    Darkside: the real Nightmare! Replaces Julius. Includes custom hitboxes and muted voicelines.
+assets:
+## Models
+  - name: chara\boss\b_tw20\mig\0\bin\b_tw200.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_boss\456-b_tw200.pmo
+  - name: chara\high\h_tw20\mig\0\bin\h_tw200.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_high\1468-h_tw200.pmo
+  - name: remastered\chara\boss\b_tw20\mig\0\bin\b_tw200.pmo\b_tw200_00.dds
+    multi:
+      - name: remastered\chara\high\h_tw20\mig\0\bin\h_tw200.pmo\h_tw200_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_boss\Texture0.dds
+  - name: remastered\chara\boss\b_tw20\mig\0\bin\b_tw200.pmo\b_tw200_01.dds
+    multi:
+      - name: remastered\chara\high\h_tw20\mig\0\bin\h_tw200.pmo\h_tw200_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_boss\Texture1.dds
+  - name: remastered\chara\boss\b_tw20\mig\0\bin\b_tw200.pmo\b_tw200_02.dds
+    multi:
+      - name: remastered\chara\high\h_tw20\mig\0\bin\h_tw200.pmo\h_tw200_02.dds
+    method: copy
+    source:
+      - name: remastered\chara_boss\Texture2.dds
+
+## Animations
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20_001.pam
+    method: copy
+    source:
+      - name: 3ds\chara_boss\526-b_tw20_001.pam
+
+## Cutscenes
+  - name: motionNE\boss\b_tw20\anm\ev_tw\bin\b_tw200_13201e.pam
+    method: copy
+    source:
+      - name: 3ds\chara_boss\414-b_tw200_13201e.pam
+  - name: motionNE\high\h_tw20\anm\ev_tw\bin\h_tw200_13103e.pam
+    method: copy
+    source:
+      - name: 3ds\chara_high\353-h_tw200_13103e.pam
+  - name: motionNE\high\h_tw20\anm\ev_tw\bin\h_tw200_13104e.pam
+    method: copy
+    source:
+      - name: 3ds\chara_high\283-h_tw200_13104e.pam
+
+## Misc
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20.abc
+    method: copy
+    source:
+      - name: 3ds\chara_boss\338-b_tw20.abc
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20.ccd
+    method: copy
+    source:
+      - name: 3ds\chara_boss\715-b_tw20.ccd
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_boss\629-b_tw20_001.ead
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20_001.seb
+    method: copy
+    source:
+      - name: 3ds\chara_boss\198-b_tw20_001.seb
+  - name: chara\boss\b_tw20\anm\rt\bin\b_tw20.tcd
+    method: copy
+    source:
+      - name: 3ds\chara_boss\658-b_tw20.tcd
