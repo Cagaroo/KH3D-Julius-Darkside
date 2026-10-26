@@ -1,8 +1,8 @@
 {
   "Name": "Julius - Darkside",
-  "Description": "Darkside over Julius",
+  "Description": "Darkside: the real Nightmare! Replaces Julius. Includes custom hitboxes and muted voicelines.",
   "Authors": "Cagaroo",
   "Link": "https://gamebanana.com/members/5286717",
-  "Prefix": "",
-  "Color": "#23416C"
+  "Prefix": "3ds",
+  "Color": "#122238"
 }
